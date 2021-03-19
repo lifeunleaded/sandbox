@@ -3,11 +3,10 @@ echo "Commit:"
 echo $GITHUB_SHA
 echo "Files changed:"
 
-for file in $files
-do
+for file in $files; do
+    echo "In for loop"
     echo $file
-    if [ "${file##*.}" = "zip" ]
-    then 
+    if [ "${file##*.}" = "zip" ]; then 
         echo "Found zip file"
         unzip -d tmpoutdir $file
         mkdir outdir
