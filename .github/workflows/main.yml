@@ -22,6 +22,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: List files
         run: for file in $(git diff-tree -r HEAD --name-only --no-commit-id); do echo $file; done
+      - name: Cat file
+        run: cat $GITHUB_WORKSPACE/test.txt
       # Runs a single command using the runners shell
       - name: Unzip and move
         run: ./.github/scripts/unzip-and-move.sh
