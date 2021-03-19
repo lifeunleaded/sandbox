@@ -1,8 +1,6 @@
-tmpfile=$(mktemp)
-echo $tmpfile
-echo "Apa" > $tmpfile
-git diff-tree -r HEAD --name-only --no-commit-id > $tmpfile
-cat $tmpfile
+echo "Apa" > $GITHUB_WORKSPACE/tmpfile
+git diff-tree -r HEAD --name-only --no-commit-id >> $GITHUB_WORKSPACE/tmpfile
+cat $GITHUB_WORKSPACE/tmpfile
 # files=$(git diff-tree -r $GITHUB_SHA --name-only --no-commit-id)
 # echo "Commit:"
 # echo $GITHUB_SHA
