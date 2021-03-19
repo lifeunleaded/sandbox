@@ -1,4 +1,4 @@
-files=$(git show $GITHUB_SHA --name-only --oneline | awk FNR-1)
+files=$(git show HEAD --name-only --oneline | awk FNR-1)
 echo "Commit:"
 echo $GITHUB_SHA
 echo "Files changed:"
