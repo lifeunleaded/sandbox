@@ -1,5 +1,6 @@
 echo "Apa" > $GITHUB_WORKSPACE/tmpfile
-git diff-tree -r HEAD --name-only --no-commit-id >> $GITHUB_WORKSPACE/tmpfile
+echo $GITHUB_SHA >> $GITHUB_WORKSPACE/tmpfile
+git diff-tree -r $GITHUB_SHA --name-only --no-commit-id >> $GITHUB_WORKSPACE/tmpfile
 cat $GITHUB_WORKSPACE/tmpfile
 # files=$(git diff-tree -r $GITHUB_SHA --name-only --no-commit-id)
 # echo "Commit:"
