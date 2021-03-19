@@ -9,12 +9,11 @@ for file in $files; do
     if [ "${file##*.}" = "zip" ]; then 
         echo "Found zip file"
         unzip -d tmpoutdir $file
-        mkdir outdir
-        mv tmpoutdir/*/out/* outdir
+        cp -rf tmpoutdir/*/out/* docs/
         rm -rf tmpoutdir
-        echo "Files in zip out/:"
-        ls outdir
-                
+        echo "Files in docs/:"
+        ls docs
+        git commit -a -m "Upload published docs"
     else
         echo "No zip file here"
     fi
