@@ -14,9 +14,7 @@ for file in $files; do
         rm -rf tmpoutdir
         echo "Files in zip out/:"
         ls outdir
-        git add outdir
-        git commit -m "Added pub"
-        git push origin publish
+                
     else
         echo "No zip file here"
     fi
