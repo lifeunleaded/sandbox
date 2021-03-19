@@ -20,6 +20,9 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
+      - name: List files
+        run: git diff-tree -r $GITHUB_SHA --name-only --no-commit-id
+      # Runs a single command using the runners shell
       - name: Unzip and move
         run: ./.github/scripts/unzip-and-move.sh
         shell: bash
