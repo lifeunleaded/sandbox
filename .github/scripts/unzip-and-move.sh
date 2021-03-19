@@ -11,8 +11,8 @@ for file in $files; do
         unzip -d tmpoutdir $file
         cp -rf tmpoutdir/*/out/* docs/
         rm -rf tmpoutdir
-        echo "Files in docs/:"
-        ls docs
+        cd docs
+        git add -A .
         git commit -a -m "Upload published docs"
         git push origin staging
     else
