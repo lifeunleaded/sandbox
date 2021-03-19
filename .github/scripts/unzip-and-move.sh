@@ -1,5 +1,6 @@
 files=$(git diff-tree HEAD --name-only --no-commit-id)
-echo "Files changed: $files"
+echo "Files changed:"
+git diff-tree HEAD --name-only --no-commit-id
 echo $GITHUB_WORKSPACE
 ls $GITHUB_WORKSPACE
 env
