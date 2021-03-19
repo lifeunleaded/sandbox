@@ -18,8 +18,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
       # Runs a single command using the runners shell
+      - name: git show
+        run: |
+          git show
       - name: List files
         run: |
           git diff-tree -r $GITHUB_SHA --name-only --no-commit-id >> $GITHUB_WORKSPACE/test.txt
