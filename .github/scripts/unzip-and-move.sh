@@ -1,8 +1,8 @@
-files=$(git diff-tree HEAD --name-only --no-commit-id)
+files=$(git diff-tree -r $GITHUB_SHA --name-only --no-commit-id)
 echo "Commit:"
 echo $GITHUB_SHA
 echo "Files changed:"
-
+echo "$files"
 for file in $files; do
     echo "In for loop"
     echo $file
