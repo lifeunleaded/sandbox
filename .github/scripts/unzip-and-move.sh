@@ -1,11 +1,11 @@
 files=$(git diff-tree HEAD --name-only --no-commit-id)
+echo "Commit:"
+echo $GITHUB_SHA
 echo "Files changed:"
-git diff-tree -r HEAD --name-only --no-commit-id
-#echo $GITHUB_WORKSPACE
-#ls $GITHUB_WORKSPACE
-#env
+
 for file in $files
 do
+    echo $file
     if [ "${file##*.}" = "zip" ]
     then 
         echo "Found zip file"
