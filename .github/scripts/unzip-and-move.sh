@@ -1,9 +1,9 @@
 files=$(git diff-tree HEAD --name-only --no-commit-id)
 echo "Files changed:"
 git diff-tree HEAD --name-only --no-commit-id
-echo $GITHUB_WORKSPACE
-ls $GITHUB_WORKSPACE
-env
+#echo $GITHUB_WORKSPACE
+#ls $GITHUB_WORKSPACE
+#env
 for file in $files
 do
     if [ "${file##*.}" = "zip" ]
