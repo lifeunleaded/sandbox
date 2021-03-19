@@ -14,6 +14,7 @@ for file in $files; do
         echo "Files in docs/:"
         ls docs
         git commit -a -m "Upload published docs"
+        git push origin staging
     else
         echo "No zip file here"
     fi
