@@ -24,9 +24,9 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
       # Runs a single command using the runners shell
-      - name: git show
+      - name: git diff
         run: |
-          git show
+          git diff --name-only HEAD HEAD~1
       - name: List files
         run: |
           git diff-tree -r $GITHUB_SHA --name-only --no-commit-id >> $GITHUB_WORKSPACE/test.txt
