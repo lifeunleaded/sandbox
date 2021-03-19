@@ -9,13 +9,12 @@ for file in $files; do
     if [ "${file##*.}" = "zip" ]; then 
         echo "Found zip file"
         unzip -d tmpoutdir $file
-        export TMPDIR=$GITHUB_WORKSPACE
-        outdir=$(mktemp -d -t pub)
-        mv tmpoutdir/*/out/* $outdir
+        mkdir outdir
+        mv tmpoutdir/*/out/* outdir
         rm -rf tmpoutdir
         echo "Files in zip out/:"
-        ls $outdir
-        git add $outdir
+        ls outdir
+        git add outdir
         git commit -m "Added pub"
         git push origin publish
     else
