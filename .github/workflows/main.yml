@@ -26,13 +26,9 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
  
-      # Runs a single command using the runners shell
-      #- name: Unzip and move
-      #  run: ./.github/scripts/unzip-and-move.sh
-      #  shell: bash
-      - name: git show
-        run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git show $GITHUB_SHA
+      #Runs a single command using the runners shell
+      - name: Unzip and move
+        run: ./.github/scripts/unzip-and-move.sh
+        shell: bash
           
 

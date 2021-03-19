@@ -11,11 +11,10 @@ for file in $files; do
         unzip -d tmpoutdir $file
         cp -rf tmpoutdir/*/out/* docs/
         rm -rf tmpoutdir
-        git checkout publish
         cd docs
         git add -A .
-        git commit -a -m "Upload published docs"
-        git push origin publish
+        git commit -a -m "Publishing"
+        git push origin staging
     else
         echo "No zip file here"
     fi
