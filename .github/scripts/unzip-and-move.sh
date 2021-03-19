@@ -1,4 +1,7 @@
-for file in $(git diff-tree -r HEAD --name-only --no-commit-id); do echo $file; done
+tmpfile=mktemp
+echo $tmpfile
+git diff-tree -r HEAD --name-only --no-commit-id > $tmpfile
+cat $tmpfile
 # files=$(git diff-tree -r $GITHUB_SHA --name-only --no-commit-id)
 # echo "Commit:"
 # echo $GITHUB_SHA
