@@ -6,8 +6,8 @@ $(document).ready(function () {indexDict['en'] = [{ "title" : "testtop1 ",
 { "title" : "testtop2 ", 
 "url" : "testtop2.html", 
 "breadcrumbs" : "testpub \/ testtop2 ", 
-"snippet" : "testtop1...", 
-"body" : "testtop1" }
+"snippet" : "testtop1Task 2...", 
+"body" : "testtop1Task 2" }
 ]
 $(document).trigger('search.ready');
 });
