@@ -1,272 +1,272 @@
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] ############################################################
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] # Output Factory initiated (html5)
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] # Building output for: testpub
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] # URL /document/edit/116654
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] # User: Erik Rask
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] # Time: Thu, 06 May 2021 15:44:30 +0200
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] # Server: 2d06832540e5
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] ############################################################
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] Group: custom
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] Type: html5
-[06/May/2021 15:44:30 Europe/Stockholm] [Info] Transformation: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] File found: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] ############################################################
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Building output for: html5
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Using stylesheet: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Parameters for this build: (array) []
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Environment variables for this build: (array) []
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Building output for languages: (array) ["en"]
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Building multilang: no
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Building preview: no
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] ############################################################
-[06/May/2021 15:44:31 Europe/Stockholm] [Info] Using build directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5
-[06/May/2021 15:44:32 Europe/Stockholm] [Info] -- Generating source files
-[06/May/2021 15:44:32 Europe/Stockholm] [Info] -- Propagating taxonomies: false
-[06/May/2021 15:44:32 Europe/Stockholm] [Info] -- Source files have been generated
-[06/May/2021 15:44:32 Europe/Stockholm] [Info] -- Publication has no unresolved dependencies.
-[06/May/2021 15:44:32 Europe/Stockholm] [Info] -- Generating source files complete.
-[06/May/2021 15:44:33 Europe/Stockholm] [Info] Localizing: publication-116654.xml
-[06/May/2021 15:44:33 Europe/Stockholm] [Info] Language: en
-[06/May/2021 15:44:34 Europe/Stockholm] [Info] Variable sets found: 0
-[06/May/2021 15:44:35 Europe/Stockholm] [Info] Inserting image links.
-[06/May/2021 15:44:35 Europe/Stockholm] [Info] Found 0 image(s).
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Profiling parameters: (array) []
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Profiling customisation: /var/www/html/usr/paligo/xsl/profile.xsl (not found)
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Transformation: publication-116654--en.org.xml -> publication-116654--en.xml [profile.xsl]
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Transformation: publication-116654--en.xml -> publication-116654--en.xml [internal-xref.xsl]
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
-[06/May/2021 15:44:36 Europe/Stockholm] [Info] Created copy: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.xsl
-[06/May/2021 15:44:37 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/html5/erik_html5-2.page.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.page.xsl
-[06/May/2021 15:44:37 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/html5/erik_html5-2.index.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.index.xsl
-[06/May/2021 15:44:37 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5-2.page.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.page.xsl
-[06/May/2021 15:44:37 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5-2.index.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.index.xsl
-[06/May/2021 15:44:37 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5.toc.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.toc.xsl
-[06/May/2021 15:44:37 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5.page.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.page.xsl
-[06/May/2021 15:44:37 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5.index.xsl -> /var/www/html/usr/paligo/xsl/custom/6093f2c4e1884.index.xsl
-[06-May-2021 15:44:39 Europe/Stockholm] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*
-[06-May-2021 15:44:39 Europe/Stockholm] Filename: css/*
-[06-May-2021 15:44:39 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
-[06-May-2021 15:44:39 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'bootstrap-3.0.2.min.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'bootstrap-theme-3.0.2.min.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'bootstrap-theme.min.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'bootstrap-theme.min.css.map'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'bootstrap.min.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'bootstrap.min.css.map'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'content-theme1.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'content-theme2.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'docbook.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'font-awesome.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'graphical-lists.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'html5.algoliasearch.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'html5.algoliasearchpage.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'mathml.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'roboto.font.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'rwd-table.min.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'sm-core-css.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'sm-simple.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-api-responsive.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-api.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-common.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-index-page.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-modern-tables.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-print.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-responsive.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-revealjs-slides.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style-single-page.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'style.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme0.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme1-colors.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme1.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme2-colors.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme2.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme3-colors.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme3.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme3b-colors.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'theme3b.css'
-[06-May-2021 15:44:39 Europe/Stockholm] Filename: css/image/*
-[06-May-2021 15:44:39 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
-[06-May-2021 15:44:39 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'breadcrumb-seperator.png'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'caution.png'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'corporate-logo-blue-inverted.svg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'corporate-logo-blue.svg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'corporate-logo-white.png'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'corporate-logo-white.svg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'corporate-logo.png'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'corporate-logo.svg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'important.png'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'note.png'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'portal1-bg.jpg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'portal2a-bg.jpg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'portal2b-bg.jpg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'portal2c-bg.jpg'
-[06-May-2021 15:44:39 Europe/Stockholm] Copy file 'subheader-bg.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'warning.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Filename: css/image/callouts/*
-[06-May-2021 15:44:40 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
-[06-May-2021 15:44:40 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '1.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '1.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '1.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '10.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '10.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '10.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '11.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '11.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '11.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '12.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '12.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '12.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '13.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '13.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '13.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '14.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '14.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '14.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '15.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '15.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '15.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '16.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '17.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '18.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '19.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '2.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '2.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '2.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '20.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '21.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '22.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '23.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '24.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '25.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '26.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '27.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '28.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '29.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '3.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '3.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '3.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '30.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '4.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '4.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '4.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '5.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '5.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '5.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '6.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '6.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '6.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '7.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '7.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '7.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '8.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '8.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '8.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '9.gif'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '9.png'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file '9.svg'
-[06-May-2021 15:44:40 Europe/Stockholm] Filename: js/*
-[06-May-2021 15:44:40 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
-[06-May-2021 15:44:40 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'ajax-loading.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'anchorlinks.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'bootstrap.min.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'checklist.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'clipboard.min.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'cookie-consent.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'create-toc.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'csh.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'fuse.min.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'hilitor.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5-2-ajax-hp.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5-2-ajax.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5-2-mp-common.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5-2-portal.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5-2.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5.algoliasearch.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5.algoliasearchpage.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'html5.fuse.search.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'jquery-1.10.2.min.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'jquery-1.10.2.min.map'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'jquery-migrate-3.0.1.min.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'jquery-ui-1.10.3.custom.min.js'
-[06-May-2021 15:44:40 Europe/Stockholm] Copy file 'jquery.event.move.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'jquery.event.swipe.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'jquery.mark.min.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'jquery.smartmenus.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'jquery.sticky.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'lunr-single-lang.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'lunr.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'materialize.min.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'mspace.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'purl.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'respond.min.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'responsive-tables.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'rwd-table.min.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'script-api.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'script-revealjs-slides.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'script.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'search.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'updateurl.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Filename: js/jquery-3/*
-[06-May-2021 15:44:41 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
-[06-May-2021 15:44:41 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'jquery-3.4.1.min.js'
-[06-May-2021 15:44:41 Europe/Stockholm] Filename: fonts/*
-[06-May-2021 15:44:41 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
-[06-May-2021 15:44:41 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'FontAwesome.otf'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'fontawesome-webfont.eot'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'fontawesome-webfont.svg'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'fontawesome-webfont.ttf'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'fontawesome-webfont.woff'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'fontawesome-webfont.woff2'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.eot'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.svg'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.ttf'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.woff'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.woff2'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.eot'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.svg'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.ttf'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff2'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.eot'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.svg'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.ttf'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.eot'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.svg'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.ttf'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2'
-[06-May-2021 15:44:41 Europe/Stockholm] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
-[06-May-2021 15:44:41 Europe/Stockholm] Filename: css/*
-[06-May-2021 15:44:41 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
-[06-May-2021 15:44:41 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:41 Europe/Stockholm] Filename: css/image/*
-[06-May-2021 15:44:41 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
-[06-May-2021 15:44:41 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:41 Europe/Stockholm] Filename: css/image/callouts/*
-[06-May-2021 15:44:41 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
-[06-May-2021 15:44:41 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:41 Europe/Stockholm] Filename: js/*
-[06-May-2021 15:44:41 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
-[06-May-2021 15:44:41 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:41 Europe/Stockholm] Filename: fonts/*
-[06-May-2021 15:44:41 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
-[06-May-2021 15:44:41 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file '/var/www/html/application/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '/paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out/css/image/corporate-logo.svg'
-[06-May-2021 15:44:41 Europe/Stockholm] Copy file '/var/www/html/application/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '/paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out/css/image/portal-logo.svg'
-[06-May-2021 15:44:42 Europe/Stockholm] Post build HTML5
-[06/May/2021 15:44:43 Europe/Stockholm] [Info] Transformation: index-en.html -> toc-en.html [6093f2c4e1884.toc.xsl]
-[06/May/2021 15:44:43 Europe/Stockholm] [Info] Transformation: apanbepan.html -> apanbepan.html [6093f2c4e1884.page.xsl]
-[06/May/2021 15:44:43 Europe/Stockholm] [Info] Transformation: index-en.html -> index-en.html [6093f2c4e1884.page.xsl]
-[06/May/2021 15:44:44 Europe/Stockholm] [Info] Transformation: testtop2.html -> testtop2.html [6093f2c4e1884.page.xsl]
-[06/May/2021 15:44:44 Europe/Stockholm] [Info] Generating index page.
-[06/May/2021 15:44:44 Europe/Stockholm] [Info] Transformation: index.manifest -> index.html [6093f2c4e1884.index.xsl]
-[06/May/2021 15:44:45 Europe/Stockholm] [Info] # Took 14.680870 seconds to render.
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] ############################################################
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] # Output Factory initiated (html5)
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] # Building output for: testpub
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] # URL /document/edit/116654
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] # User: Erik Rask
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] # Time: Mon, 10 May 2021 18:51:20 +0200
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] # Server: 2d06832540e5
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] ############################################################
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] Group: custom
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] Type: html5
+[10/May/2021 18:51:20 Europe/Stockholm] [Info] Transformation: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] File found: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] ############################################################
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Building output for: html5
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Using stylesheet: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Parameters for this build: (array) []
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Environment variables for this build: (array) []
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Building output for languages: (array) ["en"]
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Building multilang: no
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Building preview: no
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] ############################################################
+[10/May/2021 18:51:21 Europe/Stockholm] [Info] Using build directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5
+[10/May/2021 18:51:22 Europe/Stockholm] [Info] -- Generating source files
+[10/May/2021 18:51:22 Europe/Stockholm] [Info] -- Propagating taxonomies: false
+[10/May/2021 18:51:22 Europe/Stockholm] [Info] -- Source files have been generated
+[10/May/2021 18:51:22 Europe/Stockholm] [Info] -- Publication has no unresolved dependencies.
+[10/May/2021 18:51:22 Europe/Stockholm] [Info] -- Generating source files complete.
+[10/May/2021 18:51:23 Europe/Stockholm] [Info] Localizing: publication-116654.xml
+[10/May/2021 18:51:23 Europe/Stockholm] [Info] Language: en
+[10/May/2021 18:51:24 Europe/Stockholm] [Info] Variable sets found: 0
+[10/May/2021 18:51:25 Europe/Stockholm] [Info] Inserting image links.
+[10/May/2021 18:51:25 Europe/Stockholm] [Info] Found 0 image(s).
+[10/May/2021 18:51:26 Europe/Stockholm] [Info] Profiling parameters: (array) []
+[10/May/2021 18:51:26 Europe/Stockholm] [Info] Profiling customisation: /var/www/html/usr/paligo/xsl/profile.xsl (not found)
+[10/May/2021 18:51:26 Europe/Stockholm] [Info] Transformation: publication-116654--en.org.xml -> publication-116654--en.xml [profile.xsl]
+[10/May/2021 18:51:26 Europe/Stockholm] [Info] Transformation: publication-116654--en.xml -> publication-116654--en.xml [internal-xref.xsl]
+[10/May/2021 18:51:26 Europe/Stockholm] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
+[10/May/2021 18:51:26 Europe/Stockholm] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
+[10/May/2021 18:51:26 Europe/Stockholm] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created copy: /var/www/html/usr/paligo/xsl/custom/layout-116659.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.xsl
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/html5/erik_html5-2.page.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.page.xsl
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/html5/erik_html5-2.index.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.index.xsl
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5-2.page.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.page.xsl
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5-2.index.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.index.xsl
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5.toc.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.toc.xsl
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5.page.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.page.xsl
+[10/May/2021 18:51:27 Europe/Stockholm] [Info] Created symlink: /var/www/html/usr/paligo/xsl/default/html5/html5.index.xsl -> /var/www/html/usr/paligo/xsl/custom/6099648f3a523.index.xsl
+[10-May-2021 18:51:29 Europe/Stockholm] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*
+[10-May-2021 18:51:29 Europe/Stockholm] Filename: css/*
+[10-May-2021 18:51:29 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
+[10-May-2021 18:51:29 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'bootstrap-3.0.2.min.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'bootstrap-theme-3.0.2.min.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'bootstrap-theme.min.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'bootstrap-theme.min.css.map'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'bootstrap.min.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'bootstrap.min.css.map'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'content-theme1.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'content-theme2.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'docbook.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'font-awesome.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'graphical-lists.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'html5.algoliasearch.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'html5.algoliasearchpage.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'mathml.css'
+[10-May-2021 18:51:29 Europe/Stockholm] Copy file 'roboto.font.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'rwd-table.min.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'sm-core-css.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'sm-simple.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-api-responsive.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-api.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-common.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-index-page.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-modern-tables.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-print.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-responsive.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-revealjs-slides.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style-single-page.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'style.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme0.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme1-colors.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme1.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme2-colors.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme2.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme3-colors.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme3.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme3b-colors.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'theme3b.css'
+[10-May-2021 18:51:30 Europe/Stockholm] Filename: css/image/*
+[10-May-2021 18:51:30 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
+[10-May-2021 18:51:30 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'breadcrumb-seperator.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'caution.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'corporate-logo-blue-inverted.svg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'corporate-logo-blue.svg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'corporate-logo-white.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'corporate-logo-white.svg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'corporate-logo.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'corporate-logo.svg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'important.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'note.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'portal1-bg.jpg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'portal2a-bg.jpg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'portal2b-bg.jpg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'portal2c-bg.jpg'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'subheader-bg.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file 'warning.png'
+[10-May-2021 18:51:30 Europe/Stockholm] Filename: css/image/callouts/*
+[10-May-2021 18:51:30 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
+[10-May-2021 18:51:30 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file '1.gif'
+[10-May-2021 18:51:30 Europe/Stockholm] Copy file '1.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '1.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '10.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '10.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '10.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '11.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '11.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '11.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '12.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '12.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '12.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '13.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '13.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '13.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '14.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '14.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '14.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '15.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '15.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '15.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '16.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '17.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '18.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '19.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '2.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '2.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '2.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '20.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '21.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '22.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '23.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '24.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '25.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '26.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '27.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '28.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '29.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '3.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '3.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '3.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '30.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '4.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '4.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '4.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '5.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '5.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '5.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '6.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '6.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '6.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '7.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '7.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '7.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '8.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '8.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '8.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '9.gif'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '9.png'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file '9.svg'
+[10-May-2021 18:51:31 Europe/Stockholm] Filename: js/*
+[10-May-2021 18:51:31 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
+[10-May-2021 18:51:31 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'ajax-loading.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'anchorlinks.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'bootstrap.min.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'checklist.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'clipboard.min.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'cookie-consent.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'create-toc.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'csh.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'fuse.min.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'hilitor.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5-2-ajax-hp.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5-2-ajax.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5-2-mp-common.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5-2-portal.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5-2.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5.algoliasearch.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5.algoliasearchpage.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'html5.fuse.search.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'jquery-1.10.2.min.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'jquery-1.10.2.min.map'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'jquery-migrate-3.0.1.min.js'
+[10-May-2021 18:51:31 Europe/Stockholm] Copy file 'jquery-ui-1.10.3.custom.min.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'jquery.event.move.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'jquery.event.swipe.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'jquery.mark.min.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'jquery.smartmenus.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'jquery.sticky.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'lunr-single-lang.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'lunr.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'materialize.min.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'mspace.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'purl.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'respond.min.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'responsive-tables.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'rwd-table.min.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'script-api.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'script-revealjs-slides.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'script.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'search.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'updateurl.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Filename: js/jquery-3/*
+[10-May-2021 18:51:32 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
+[10-May-2021 18:51:32 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'jquery-3.4.1.min.js'
+[10-May-2021 18:51:32 Europe/Stockholm] Filename: fonts/*
+[10-May-2021 18:51:32 Europe/Stockholm] Source directory: /var/www/html/application/lib/docbook/xsl/html5
+[10-May-2021 18:51:32 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'FontAwesome.otf'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'fontawesome-webfont.eot'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'fontawesome-webfont.svg'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'fontawesome-webfont.ttf'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'fontawesome-webfont.woff'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'fontawesome-webfont.woff2'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.eot'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.svg'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.ttf'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.woff'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'glyphicons-halflings-regular.woff2'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.eot'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.svg'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.ttf'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300.woff2'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.eot'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.svg'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.ttf'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.eot'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.svg'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.ttf'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff'
+[10-May-2021 18:51:32 Europe/Stockholm] Copy file 'roboto-v20-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2'
+[10-May-2021 18:51:32 Europe/Stockholm] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
+[10-May-2021 18:51:32 Europe/Stockholm] Filename: css/*
+[10-May-2021 18:51:32 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
+[10-May-2021 18:51:32 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:32 Europe/Stockholm] Filename: css/image/*
+[10-May-2021 18:51:32 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
+[10-May-2021 18:51:32 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:32 Europe/Stockholm] Filename: css/image/callouts/*
+[10-May-2021 18:51:32 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
+[10-May-2021 18:51:32 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:32 Europe/Stockholm] Filename: js/*
+[10-May-2021 18:51:33 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
+[10-May-2021 18:51:33 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:33 Europe/Stockholm] Filename: fonts/*
+[10-May-2021 18:51:33 Europe/Stockholm] Source directory: /var/www/html/usr/paligo/xsl/html5
+[10-May-2021 18:51:33 Europe/Stockholm] Target directory: /paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out
+[10-May-2021 18:51:33 Europe/Stockholm] Copy file '/var/www/html/application/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '/paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out/css/image/corporate-logo.svg'
+[10-May-2021 18:51:33 Europe/Stockholm] Copy file '/var/www/html/application/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '/paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out/css/image/portal-logo.svg'
+[10-May-2021 18:51:33 Europe/Stockholm] Post build HTML5
+[10/May/2021 18:51:34 Europe/Stockholm] [Info] Transformation: index-en.html -> toc-en.html [6099648f3a523.toc.xsl]
+[10/May/2021 18:51:35 Europe/Stockholm] [Info] Transformation: apanbepan.html -> apanbepan.html [6099648f3a523.page.xsl]
+[10/May/2021 18:51:35 Europe/Stockholm] [Info] Transformation: index-en.html -> index-en.html [6099648f3a523.page.xsl]
+[10/May/2021 18:51:35 Europe/Stockholm] [Info] Transformation: testtop2.html -> testtop2.html [6099648f3a523.page.xsl]
+[10/May/2021 18:51:35 Europe/Stockholm] [Info] Generating index page.
+[10/May/2021 18:51:35 Europe/Stockholm] [Info] Transformation: index.manifest -> index.html [6099648f3a523.index.xsl]
+[10/May/2021 18:51:36 Europe/Stockholm] [Info] # Took 16.117512 seconds to render.

@@ -11,7 +11,7 @@
   <param name="custom.css.source" select=""/>
   <param name="portal.logo.filename" select="css/image/corporate-logo-white.svg"/>
   <param name="portal.background.filename" select=""/>
-  <param name="portal.background.filename.out" select="/paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out/css/image/portal-bg.jpg"/>
+  <param name="portal.background.filename.out" select="/paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out/css/image/portal-bg.jpg"/>
   <param name="company.name" select=""/>
   <param name="copyright.year" select=""/>
   <param name="copyright" select=" &#xA9; 2021  "/>
@@ -37,7 +37,7 @@
   <param name="last.modified.text" select="Last modified: "/>
   <param name="categories.shown" select="4"/>
   <param name="single.topic.permalink" select=""/>
-  <param name="logo.link" select="https://lifeunleaded.github.io/sandbox"/>
+  <param name="logo.link" select=""/>
   <param name="feedback.toggle" select="no-button"/>
   <param name="bootstrap.version" select="340"/>
   <param name="layout.custom.style.persistent.name" select="0"/>
@@ -89,9 +89,9 @@
   <param name="slides.revealjs.theme.custom" select=""/>
   <param name="slides.revealjs.background.image.opacity" select="1"/>
   <param name="slides.revealjs.default.background.image" select=""/>
-  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out/css/image/default_slide_background.png"/>
+  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out/css/image/default_slide_background.png"/>
   <param name="slides.revealjs.logo" select=""/>
-  <param name="slides.revealjs.logo.out" select="/paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out/css/image/logo-light.png"/>
+  <param name="slides.revealjs.logo.out" select="/paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out/css/image/logo-light.png"/>
   <param name="slides.revealjs.logo.alt" select=""/>
-  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/paligo/production-6093f2bc14dda5.13826639/116654-testpub-html5/out/css/image/logo-dark.png"/>
+  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/paligo/production-609964861ce7b0.50506117/116654-testpub-html5/out/css/image/logo-dark.png"/>
 </params>
