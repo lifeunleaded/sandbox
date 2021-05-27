@@ -82,12 +82,21 @@ function mapVersionPage(){
     //Version dropdown: Loading same page in other version, if it exists, otherwise redirecting to home page of other version
     $(document).on('click', '.version-dropdown li a', function (event) {
         event.stopPropagation();
+        // default value
+        var currentVersion = window.location.pathname.split('/')[1];
+        // let's find actual current version among available
+        var $parent = $(this).closest('.version-dropdown');
+        $parent.find('li a').each((idx, el) => {
+            const version = el.getAttribute('href').replace('index.html', '');
+            if (window.location.pathname.indexOf(version) === 0) {
+                currentVersion = version;
+            }
+        });
         var lang = document.documentElement.lang || portalLanguage || '';
         var candidateDefault = this.getAttribute('href');
         var urlDefault = new URL(window.location.origin + candidateDefault);
         urlDefault.searchParams.set('lang', lang);
-        var currentVersion = window.location.pathname.split('/')[1];
-        var newVersion = candidateDefault.split('/')[1] || '/'
+        var newVersion = candidateDefault.replace('index.html', '')
         var candidate = window.location.href.replace(currentVersion, newVersion);
 
         $.get(candidate)
