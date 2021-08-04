@@ -86,7 +86,7 @@ function mapVersionPage(){
         var currentVersion = window.location.pathname.split('/')[1];
         // let's find actual current version among available
         var $parent = $(this).closest('.version-dropdown');
-        $parent.find('li a').each((idx, el) => {
+        $parent.find('li a').each( function (idx, el) {
             const version = el.getAttribute('href').replace('index.html', '');
             if (window.location.pathname.indexOf(version) === 0) {
                 currentVersion = version;
@@ -100,8 +100,8 @@ function mapVersionPage(){
         var candidate = window.location.href.replace(currentVersion, newVersion);
 
         $.get(candidate)
-            .done(() => window.location.href = candidate)
-            .fail(() => window.location.href = urlDefault.href);
+    .done(function() { return window.location.href = candidate })
+    .fail(function() { return window.location.href = urlDefault.href });
         return false;
     });
 }
@@ -141,12 +141,13 @@ function buildSectionToc() {
     if ($(".section-toc").length) {
 
         //Checks for the current actual chunk topic, even if an internal section in another chunk is clicked, to build section TOC then too
+        // CH update: Fix for vaoid partial match in regex, added '/' before currentChunkId
         var currentChunkId = $('#topic-content > section').attr('id');
-        var regex = new RegExp(".*" + currentChunkId + "\.html$");
+        var regex = new RegExp(".*/" + currentChunkId + "\.html$");
         if ($('#topic-content > section').is('[data-permalink]')) {
             currentChunkId = $('#topic-content > section').attr('data-permalink');
             var currentChunkIdDecoded = decodeURI(currentChunkId);
-            regex = new RegExp(".*" + currentChunkIdDecoded + "$");
+            regex = new RegExp(".*/" + currentChunkIdDecoded + "$");
         }
         var toc = $('aside ul.toc');
 
