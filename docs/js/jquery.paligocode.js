@@ -14,14 +14,9 @@
       doneDelay: 1000,
     }, options);
 
-    // Wrapper
-    this.wrap('<div class="paligocode-wrapper"></div>');
-    this.closest('.paligocode-wrapper')
-      .css('position', 'relative');
-
     // Copy to clipboard handler
-    const copyToClipboard = () => {
-      const code = this.get(0);
+    const copyToClipboard = ($el) => {
+      const code = $el.get(0);
       if (document.body.createTextRange) {
         const range = document.body.createTextRange();
         range.moveToElementText(node);
@@ -45,22 +40,31 @@
         b.innerHTML = settings.icon;
         b.setAttribute('title', settings.title);
       }, settings.doneDelay);
-    }
+    };
 
-    // Button
-    const btn = document.createElement('button');
-    btn.innerHTML = settings.icon;
-    btn.classList.add('btn', 'btn-xs', 'btn-primary');
-    btn.style.position = 'absolute';
-    btn.style.top = settings.top;
-    btn.style.right = settings.right;
-    btn.setAttribute('title', settings.title);
-    btn.onclick = () => {
-      copyToClipboard();
-      markButtonDone(btn);
-    }
+    this.each((idx, el) => {
+      const $el = $(el);
+      // Wrapper
+      $el.wrap('<div class="paligocode-wrapper"></div>');
+      $el.closest('.paligocode-wrapper')
+        .css('position', 'relative');
 
-    this.after(btn);
+      // Button
+      const btn = document.createElement('button');
+      btn.innerHTML = settings.icon;
+      btn.classList.add('btn', 'btn-xs', 'btn-primary');
+      btn.style.position = 'absolute';
+      btn.style.top = settings.top;
+      btn.style.right = settings.right;
+      btn.setAttribute('title', settings.title);
+      btn.onclick = () => {
+        copyToClipboard($el);
+        markButtonDone(btn);
+      };
+
+      $el.after(btn);
+    });
+
     return this;
   };
 
