@@ -6,13 +6,15 @@ echo "$files"
 for file in $files; do
     echo "In for loop"
     echo $file
-    if [ "${file##*.}" = "zip" ]; then 
+    if [ "${file##*.}" = "zip" ] && [ -f $file ]; then 
         echo "Found zip file"
         unzip -d tmpoutdir $file
         cp -rf tmpoutdir/*/out/* docs/
         rm -rf tmpoutdir
         cd docs
         git add -A .
+        cd ..
+        git rm $file
         git commit -a -m "Publishing"
         git push origin staging
     else
