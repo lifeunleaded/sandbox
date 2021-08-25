@@ -12,7 +12,7 @@
   <param name="custom.css.source" select=""/>
   <param name="portal.logo.filename" select="css/image/corporate-logo-white.svg"/>
   <param name="portal.background.filename" select=""/>
-  <param name="portal.background.filename.out" select="/paligo/tmp/erik/production-6125e54ab0c882.74688532/244393-Test-html5/out/css/image/portal-bg.jpg"/>
+  <param name="portal.background.filename.out" select="/paligo/tmp/erik/production-6125ea50b37f16.01686015/244393-Test-html5/out/css/image/portal-bg.jpg"/>
   <param name="company.name" select=""/>
   <param name="copyright.year" select=""/>
   <param name="copyright"> © 2021  </param>
@@ -90,9 +90,9 @@
   <param name="slides.revealjs.theme.custom" select=""/>
   <param name="slides.revealjs.background.image.opacity" select="1"/>
   <param name="slides.revealjs.default.background.image" select=""/>
-  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/erik/production-6125e54ab0c882.74688532/244393-Test-html5/out/css/image/default_slide_background.png"/>
+  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/erik/production-6125ea50b37f16.01686015/244393-Test-html5/out/css/image/default_slide_background.png"/>
   <param name="slides.revealjs.logo" select=""/>
-  <param name="slides.revealjs.logo.out" select="/paligo/tmp/erik/production-6125e54ab0c882.74688532/244393-Test-html5/out/css/image/logo-light.png"/>
+  <param name="slides.revealjs.logo.out" select="/paligo/tmp/erik/production-6125ea50b37f16.01686015/244393-Test-html5/out/css/image/logo-light.png"/>
   <param name="slides.revealjs.logo.alt" select=""/>
-  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/erik/production-6125e54ab0c882.74688532/244393-Test-html5/out/css/image/logo-dark.png"/>
+  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/erik/production-6125ea50b37f16.01686015/244393-Test-html5/out/css/image/logo-dark.png"/>
 </params>
