@@ -1,2 +1,4 @@
-# sandbox
-This is a sample repository branch to demonstrate receiving publications from the Paligo GitHub integration and unpacking them as GitHub Pages.
+Start here {#UUID-9fc0126d-7c52-8453-07fa-ff35afaa14a6}
+==========
+
+This is a GitHub README in markdown, authored in Paligo.
