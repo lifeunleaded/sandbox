@@ -15,14 +15,13 @@ for file in $files; do
         # Unzip and move the publication to docs/,
         # which is the base for this Pages setup.
         unzip -d tmpoutdir $file
-        cp -rf tmpoutdir/*/out/* docs/
+        pandoc -f docbook -t markdown tmpoutdir/*/out/*.xml -o AUTOREADME.md
         rm -rf tmpoutdir
-        cd docs
-        git add -A .
+        git add AUTOREADME.md
         cd ..
         git rm $file
-        git commit -a -m "Publishing"
-        git push origin staging
+        git commit -a -m "Updated AUTOREADME.md from Paligo"
+        git push origin markdown
     else
         echo "No zip file here"
     fi

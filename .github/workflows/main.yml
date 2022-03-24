@@ -3,7 +3,7 @@ name: CI
 # Only react on staging, this is the branch selected in the Paligo publishing setting. 
 on:
   push:
-    branches: [ staging ]
+    branches: [ markdown ]
 
 jobs:
   build:
@@ -20,10 +20,15 @@ jobs:
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
+      - name: install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install pandoc
+          pandoc -v
  
       #Call a shell script that executes the logic of unzipping the publication and putting it in the correct place.
-      - name: Unzip and move
-        run: ./.github/scripts/unzip-and-move.sh
+      - name: Unzip and convert
+        run: ./.github/scripts/unzip-and-convert.sh
         shell: bash
           
 
