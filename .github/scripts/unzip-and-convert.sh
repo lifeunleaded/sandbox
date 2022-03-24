@@ -18,7 +18,6 @@ for file in $files; do
         pandoc -f docbook -t markdown tmpoutdir/*/out/*.xml -o AUTOREADME.md
         rm -rf tmpoutdir
         git add AUTOREADME.md
-        cd ..
         git rm $file
         git commit -a -m "Updated AUTOREADME.md from Paligo"
         git push origin markdown
